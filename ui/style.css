@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'CustomByDeXo';
+    src: url(Rajdhani-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    transition: all 0.6s ease-in-out;
+}
+
+html, body {
+   margin: 0;
+   height: 100%;
+   overflow: hidden;
+   font-family: 'CustomByDeXo', sans-serif;
+   color: rgb(255, 255, 255);
+   opacity: 0.988;
+   transition: all 0.6s ease-in-out;
+   transition: 1s;
+}
+
+.hud_tutorial {
+    position: absolute;
+    top: 100px;
+    right: 2vw;
+    font-size: 1.5vw;
+    font-family: CustomByDeXo;
+    color: #000;
+}
+
+.hud_tutorial .bani_cash {
+    background-color: transparent;
+    padding: 0.5vw;
+    border-radius: .25vw;
+    font-size: 1vw;
+    font-family: CustomByDeXo;
+    color: #fff;
+    text-align: right;
+    margin-top: 0.5vw;
+}
+
+h1 {
+    font-size: 1.6vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+.hud_tutorial .bani_cash i {
+    display: inline-block;
+    padding: 0.1vw 0.5vw 0.1vw 0.5vw;
+    color: #fff;
+    margin-right: 0.391vw;
+    border-right: 0.104vw solid rgba(255, 255, 255, 0.05);
+    height: 2vw;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.hud_tutorial .bani_banca {
+    background-color: transparent;
+    padding: 0.5vw;
+    border-radius: .25vw;
+    font-size: 1vw;
+    font-family: CustomByDeXo;
+    color: #fff;
+    text-align: right;
+    margin-top: 0.5vw;
+}
+
+.hud_tutorial .bani_banca i {
+    display: inline-block;
+    padding: 0.1vw 0.5vw 0.1vw 0.5vw;
+    color: #fff;
+    margin-right: 0.391vw;
+    border-right: 0.104vw solid rgba(255, 255, 255, 0.05);
+    height: 2vw;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo {
+    width: 5vw;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 25px;
+    right: 180px;
+}
